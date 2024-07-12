@@ -1,0 +1,14 @@
+1 st NPN Install from website
+2- install cypress- npm install cypress
+3- To open the cypress local apps-  npx cypress open
+4- To Save the test and save it like test1.cy.js
+5- To run the test- npx cypress run -headed/by default headless mode
+6- To install cypress xpath 'npm install cypress-xpath'
+7- To add the module in command.js to affect all tests, '<reference types="cypress-xpath" />'
+8- T0 add the cypress references '<reference types="cypress" />'
+9- To add the cypress xpath- references in e2e.js - require('cypress-xpath')
+cy.get method is only for CSS where as cy.xpath method is for Xpath
+
+
+Implicit assertion- 'should and add'
+Expli
